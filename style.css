@@ -1,0 +1,26 @@
+.block1{
+	height: 80px;
+	width: 200px;
+	border: 1px solid black;
+	transition-duration: 1s, 4s; /*(1000ms = 1s)*/
+	transition-property: background, width; /*плавно анимировать*/
+	transition-delay: 0s,  2s; /*задерживание анимации*/ 
+}
+
+.block1:hover{
+	background:pink;
+	width: 800px;
+
+}
+
+.block2{
+	height: 80px;
+	width: 200px;
+	border:1px solid black; transition-duration: 2s;
+	transition-timing-function: ease;
+}
+
+.block2:hover {
+width:800px;
+background: red;
+}
